@@ -1,0 +1,138 @@
+.container{
+    position: absolute ;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.4);
+    width: 600px;
+    height: 580px;
+    margin-top: 350px;
+    margin: 80px 450px;
+}
+.groundback{
+    width: 100%;
+    height: 100%;
+    position: absolute ;
+}
+.btn{
+    padding: 5px 5px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: transparent;
+    margin-top: -100px;
+    margin-left: 10px;
+}
+.btn:hover{
+    pointer-events: visiblePainted;
+    border-radius: 10px;
+    background: linear-gradient(#06beb6,#48b1bf);
+    color: white;
+}
+#logo11{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+}
+.medig
+{ 
+  position: absolute;
+  color:#155f4e ;
+  font-size: 45px;
+  font-family:'papyrus';
+  position: absolute;
+  margin-top: 7px;
+  left: 75px;
+}
+.head0{
+      position: absolute; 
+      margin-left: 110px; 
+      font-size: 50px;
+      margin-top: 10px;
+}
+h2{
+    margin: 0;
+    margin-left: 10px;
+    margin-top:30px;
+    color: #00B2FF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+h3{
+    margin: 0;
+    margin-left: 70px;
+    margin-top:10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+.iii
+{
+    padding: 10px 10px;
+    width: 57%;
+    margin-top: 30px;
+    margin-left: 100px;
+    outline: none;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border:none;
+}
+.inn2
+{
+    padding: 10px 10px;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 100px;
+    outline: none;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border:none;
+}
+.iii:hover{
+    border-bottom: 3px solid black;
+}
+#btn1
+{
+    position: absolute;
+    top: 560px;
+    left: 440px;
+    background-color: green;
+}
+.head1,.head2
+{
+    pointer-events: fill;
+    display: inline-block;
+    position: relative;
+}
+.head1::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00B2FF;
+    transform-origin: bottom left;
+    transition: transform 0.50s ease-out;
+}
+  .head2::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #080808;
+    transform-origin: bottom left;
+    transition: transform 0.50s ease-out;
+}
+  
+.head1:hover::after,.head2:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
